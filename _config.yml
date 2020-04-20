@@ -5,27 +5,26 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
-disqus: dbyll
-google_analytics: dbyll
-title: dbyll
+# disqus: dbyll
+# google_analytics: dbyll
+title: blg
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: bleg
 
 description: Stylish Jekyll Theme
 author:
-  name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
-  twitter: dbtek
-  pinterest: asd123
-  linkedin: asd123
-  bio: Your stylish, minimalist theme!
-  email_md5: 726351295ec82e145928582f595aa3aa
+  name: Camilo Andrés Zamora
+  email: cazdlt@gmail.com
+  github: cazdlt
+  twitter: cazdlt
+  instagram: cazdlt_
+  linkedin: camilo-andrés-zamora-de-la-torre-891277174
+  bio: ",,,"
 
 rss_path: feed.xml
 categories_path: categories.html
