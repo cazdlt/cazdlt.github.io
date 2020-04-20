@@ -7,24 +7,26 @@ highlighter: rouge
 markdown: kramdown
 # disqus: dbyll
 # google_analytics: dbyll
-title: blg
+title: ZDLT
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: bleg
+      title: ""
 
-description: Stylish Jekyll Theme
+description: Intentando iniciar el blog. Música, proyectos, escritos, lo que haya.
 author:
   name: Camilo Andrés Zamora
   email: cazdlt@gmail.com
   github: cazdlt
   twitter: cazdlt
-  instagram: cazdlt_
+  # instagram: cazdlt_
   linkedin: camilo-andrés-zamora-de-la-torre-891277174
-  bio: ",,,"
+  lastfm: cazdlt
+  spotify: cazdlt
+  bio: mañana habrá música
 
 rss_path: feed.xml
 categories_path: categories.html
