@@ -1,79 +1,25 @@
-<!-- sidebar.html -->
-<header class="sidebar-header" role="banner">
-	<a href="{{ site.BASE_PATH }}/">
-		<img src="{{site.baseurl}}/assets/img/gerald200.png" class="img-circle" />
-	</a>
-	<h3 class="title">
-        <a href="{{ site.BASE_PATH }}/">{{ site.title }}</a>
-    </h3>
-</header>
+{% if page.author %} {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %} {% endif %}
 
-{% if site.author.bio %}
-<div id="bio" class="text-center">
-	{{ site.author.bio }}
+<div class="cover-card table-cell table-middle">
+  {% if author.avatar %}
+  <a href="{{ site.url }}/">
+    <img src="{{ site.url }}/img/{{ author.avatar }}" alt="" class="avatar">
+  </a>
+  {% endif %}
+  <a href="{{ site.url }}/" class="author_name">{{ author.name }}</a>
+  <span class="author_job">{{ author.job }}</span>
+  <span class="author_bio mbm">{{ author.bio }}</span>
+  <nav class="nav">
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a href="{{ site.url }}/">home</a>
+      </li>
+      {% for page in site.pages %} {% if page.title %}
+      <li class="nav-item">
+        <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
+      </li>
+      {% endif %} {% endfor %}
+    </ul>
+  </nav>
+  {% include social-links.html %}
 </div>
-{% endif %}
-
-<div id="contact-list" class="text-center">
-	<ul class="list-unstyled list-inline">
-		{% if site.author.github %}
-		<li>
-			<a class="btn btn-default btn-sm" href="https://github.com/{{ site.author.github }}">
-				<i class="fab fa-github fa-lg"></i>
-			</a>
-		</li>
-		{% endif %}
-		{% if site.author.twitter %}
-		<li>
-			<a class="btn btn-default btn-sm" href="https://twitter.com/{{ site.author.twitter }}">
-				<i class="fab fa-twitter fa-lg"></i>
-			</a>
-		</li>
-		{% endif %}
-		{% if site.author.email %}
-		<li>
-			<a class="btn btn-default btn-sm" href="mailto:{{ site.author.email }}">
-				<i class="fas fa-envelope fa-lg"></i>
-			</a>
-		</li>
-		{% endif %}
-	</ul>
-	<ul id="contact-list-secondary" class="list-unstyled list-inline">
-		{% if site.author.instagram %}
-		<li>
-			<a class="btn btn-default btn-sm" href="https://instagram.com/{{ site.author.instagram }}">
-				<i class="fab fa-instagram fa-lg"></i>
-			</a>
-		</li>
-		{% endif %}
-		{% if site.author.linkedin %}
-		<li>
-			<a class="btn btn-default btn-sm" href="https://linkedin.com/in/{{ site.author.linkedin }}">
-				<i class="fab fa-linkedin fa-lg"></i>
-			</a>
-		</li>
-		{% endif %}
-		{% if site.author.lastfm %}
-		<li>
-			<a class="btn btn-default btn-sm" href="https://www.last.fm/user/{{ site.author.lastfm }}">
-				<i class="fab fa-lastfm fa-lg"></i>
-			</a>
-		</li>
-		{% endif %}
-		{% if site.author.spotify %}
-		<li>
-			<a class="btn btn-default btn-sm" href="https://open.spotify.com/user/{{ site.author.spotify }}">
-				<i class="fab fa-spotify fa-lg"></i>
-			</a>
-		</li>
-		{% endif %}
-	</ul>
-
-</div>
-
-<footer>
-	<p class="creditos">
-		Tema: <a href="https://github.com/dbtek/dbyll">dbyll</a> (Jekyll) por dbtek.
-	</p>
-</footer>
-<!-- sidebar.html end -->
