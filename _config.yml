@@ -18,7 +18,7 @@ timezone:          America/Bogota
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--ver más-->
-permalink:         /articles/:year-:month/:title
+permalink:         /articles/:year/:month/:title
 
 kramdown:
   auto_ids: true

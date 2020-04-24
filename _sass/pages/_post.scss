@@ -44,10 +44,7 @@ section.post {
   padding: 0.5em 1em;
 }
 
-// Post title
-.post-title {
 
-}
 
 .post-title-link {
 	color: $primary;
@@ -62,7 +59,8 @@ section.post {
 // Post meta
 .post-meta {
   font-size: 13px;
-  font-weight: bold;
+  // 
+  // font-weight: bold;
 	.post-date {
 		color: $secondary;
 	}
@@ -71,11 +69,18 @@ section.post {
 		color: $warning;
 	}
   .post-cat {
-		text-transform: uppercase;
+    text-transform: uppercase;
+    font-weight: 600;
 		color: $warning;
 	}
   .read-time {
     color: $primary;
+  }
+  .post-description{
+    font-size: 16px;
+    margin: 1px;
+    color: #696969;
+    font-family: "Open Sans", "Source Sans Pro", "sans-serif"
   }
 }
 
@@ -87,8 +92,13 @@ a.read-more {
 
 // Post content
 
+.post-content{
+  font-size: 16px;
+}
+
 #post {
   padding-bottom: 50px;
+  font-family: "Roboto";
   .post-header {
     margin: 0 auto 50px;
   }
@@ -96,6 +106,9 @@ a.read-more {
 
 #post h1 {
   margin: 0.5em 0 0.2em;
+  font-size: 36px;
+  font-family: Manrope, Open Sans, Source Sans Pro,sans-serif;
+  // color: black
 }
 #post h2 {
   margin: 2em 0 0.8em;

@@ -7,7 +7,7 @@ layout: default
   <header class="post-header">
     <p class="post-meta">
       <span class="post-date">
-        {{ post.date | date: "%-d %b %Y" | upcase }}
+        {{ post.date | date: "%Y-%m-%d " | upcase }}
       </span>
       {% if post.categories.size > 0 %}
       •
@@ -32,15 +32,15 @@ layout: default
       {% assign author = site.owner %}
     {% endif %}
 
+    {% if post.excerpt %}
+    <span class="post-description">
+        {{ post.excerpt }}
+    </span>
+    {% endif %}
+
     </header>
 
-    {% if post.excerpt %}
-    <div class="post-description">
-      <p>
-        {{ post.excerpt }}
-      </p>
-    </div>
-    {% endif %}
+    
 
     {% if post.image.feature %}
     <div class="post-image-feature">
