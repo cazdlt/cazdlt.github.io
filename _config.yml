@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: ZDLT
+title: cazdlt
 email: cazdlt@gmail.com
 description: 
 url: # the base hostname & protocol for your site
@@ -17,7 +17,7 @@ keywords: ["blog", "jekyll"]
 timezone:          America/Bogota
 markdown:          kramdown
 highlighter:       rouge
-excerpt_separator: <!--more-->
+excerpt_separator: <!--ver más-->
 permalink:         /articles/:year-:month/:title
 
 kramdown:
