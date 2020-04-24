@@ -2,26 +2,9 @@
 layout: default
 ---
 
-{% comment %} <a class="btn" href= "{{ site.url }}/" >
+{% comment %} <a class="btn" href="{{ site.url }}/">
   Home
 </a> {% endcomment %}
-{% if page.image.feature %}
-<div class="post-image-feature">
-  <img class="feature-image" src=
-  {% if page.image.feature contains 'https' or page.image.feature contains 'http' %}
-  "{{ page.image.feature }}"
-  {% else %}
-  "{{ site.url }}/img/{{ page.image.feature }}"
-  {% endif %}
-  alt="{{ page.title | escape }} feature image">
-
-  {% if page.image.credit %}
-  <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
-  {% endif %}
-</div><!-- /.image-wrap -->
-{% endif %}
-
-
 <div id="post">
   <header class="post-header">
     <h1 title="{{ page.title | escape }}">{{ page.title }}</h1>
@@ -35,6 +18,26 @@ layout: default
 
   </header>
 
+  {% if page.excerpt %}
+  <div class="post-description">
+    <p>
+      {{ page.excerpt }}
+    </p>
+  </div>
+  {% endif %}
+  {% if page.image.feature %}
+  <div class="post-image-feature">
+    <img class="feature-image"
+      src={% if page.image.feature contains 'https' or page.image.feature contains 'http' %} "{{ page.image.feature }}"
+      {% else %} "{{ site.url }}/img/{{ page.image.feature }}" {% endif %}
+      alt="{{ page.title | escape }} feature image">
+
+    {% if page.image.credit %}
+    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+    {% endif %}
+  </div><!-- /.image-wrap -->
+  {% endif %}
+
   <article class="post-content">
     {{ content }}
   </article>
@@ -44,13 +47,16 @@ layout: default
   {% comment %} <h6>Compartir: </h6>
   <ul>
     <li>
-      <a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" class="twitter btn" title="Compartir en tw"><i class="fa fa-twitter"></i></a>
+      <a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" class="twitter btn"
+        title="Compartir en tw"><i class="fa fa-twitter"></i></a>
     </li>
     <li>
-      <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" class="facebook btn" title="Compartir en fb"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" class="facebook btn"
+        title="Compartir en fb"><i class="fa fa-facebook"></i></a>
     </li>
   </ul> {% endcomment %}
-{% comment %} </div><!-- end share-buttons --> {% endcomment %}
+  {% comment %}
+</div><!-- end share-buttons --> {% endcomment %}
 
 {% if site.owner.disqus-shortname and page.comments == true %}
 <div id="disqus_thread"></div>
