@@ -40,7 +40,7 @@ layout: default
   </article>
 </div>
 
-<div class="share-buttons">
+{% comment %} <div class="share-buttons"> {% endcomment %}
   {% comment %} <h6>Compartir: </h6>
   <ul>
     <li>
@@ -50,7 +50,7 @@ layout: default
       <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" class="facebook btn" title="Compartir en fb"><i class="fa fa-facebook"></i></a>
     </li>
   </ul> {% endcomment %}
-</div><!-- end share-buttons -->
+{% comment %} </div><!-- end share-buttons --> {% endcomment %}
 
 {% if site.owner.disqus-shortname and page.comments == true %}
 <div id="disqus_thread"></div>

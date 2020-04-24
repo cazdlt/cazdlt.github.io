@@ -107,12 +107,12 @@ a {
 
 // Footer
 footer {
-  text-align: right;
+  text-align: center;
   font-size: x-small;
   height: 1vh;
   padding: 3em 0;
-  bottom: 0;
-  position: relative;
+  // bottom: 0;
+  // position: relative;
   .heart-icon {
     color: $danger;
     text-shadow: 0 0 5px $white, 0 0 10px $danger;
