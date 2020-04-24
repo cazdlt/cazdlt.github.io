@@ -3,9 +3,9 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
-email:
-description: A simple and awesome blog theme powered by jekyll.
+title: ZDLT
+email: cazdlt@gmail.com
+description: 
 url: # the base hostname & protocol for your site
 keywords: ["blog", "jekyll"]
 
@@ -14,7 +14,7 @@ keywords: ["blog", "jekyll"]
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
+timezone:          America/Bogota
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
@@ -33,29 +33,30 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
-  avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
-  email:
+  fullname: Camilo Andrés Zamora de la Torre
+  name: una semana después
+  # avatar: leonids-logo.png
+  job: seguía lloviendo
+  bio: andrés zamora
+  email: cazdlt@gmail.com
   disqus-shortname:
-  twitter: #username
-  facebook: #username
+  twitter: cazdlt
+  facebook: #cazdlt
   google:
-    plus: #username
+    # plus: #username
     analytics:
     verify:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: cazdlt
   gitlab: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  linkedin: camilo-andrés-zamora-de-la-torre-891277174
   skype: #username
   xing: #username
-  instagram: #username
-  lastfm: #username
+  # instagram: cazdlt_
+  lastfm: cazdlt
   tumblr: #username
   pinterest: #username
   foursquare: #username
@@ -67,5 +68,6 @@ owner:
   flickr: #username
   500px: #username
   codepen: #username
-  reddit: #username
+  # reddit: cazdlt
   telegram: #username
+  spotify: cazdlt

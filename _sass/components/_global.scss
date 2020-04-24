@@ -39,6 +39,9 @@ td {
 .table-bottom {
   vertical-align: bottom;
 }
+.table-footer {
+  display: table-footer-group;
+}
 table {
   width: 100%;
   display: table;
@@ -104,8 +107,12 @@ a {
 
 // Footer
 footer {
-  text-align: center;
+  text-align: right;
+  font-size: x-small;
+  height: 1vh;
   padding: 3em 0;
+  bottom: 0;
+  position: relative;
   .heart-icon {
     color: $danger;
     text-shadow: 0 0 5px $white, 0 0 10px $danger;
