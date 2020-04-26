@@ -62,16 +62,18 @@ section.post {
   // 
   // font-weight: bold;
 	.post-date {
-		color: $secondary;
+    color: $secondary;
+    padding: 10px 0
 	}
 	.post-author {
 		text-transform: uppercase;
 		color: $warning;
 	}
   .post-cat {
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-weight: 600;
-		color: $warning;
+    font-size: 13.5px;
+		color:rgb(255, 169, 21);
 	}
   .read-time {
     color: $primary;

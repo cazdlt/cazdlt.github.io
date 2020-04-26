@@ -1,4 +1,15 @@
-# - name: leonids
-#   descr: "Bacon ipsum dolor sit amet doner meatball jowl short ribs, chicken prosciutto salami frankfurter. Pig drumstick turducken short ribs, brisket meatloaf ham hock shankle andouille corned beef strip steak. Venison ham bresaola strip steak. Pork belly ribeye prosciutto t-bone."
-#   image: pong.png
+- name: Apuntes, notas, datos e implementaciones para temas de aprendizaje automático.
+  descr: Recopilación de contenido relacionado a ciencia de datos, aprendizaje automático e inteligencia artificial. Contiene apuntes, notas, enlaces a cursos, enlaces a libros, ideas de proyectos, implementaciones de diferentes algoritmos y enlaces a contenido relacionados. Continuamente en construcción. 
+  github: https://github.com/cazdlt/MLPython
+
+- name: Descargador de contenido de la Bilioteca Nacional de Colombia
+  descr: Tras conocer acerca de la colección de entrevistas de George List y Delia Zapata Olivella, y motivado por la enorme cantidad de contenido disponible abiertamente en el catálogo de la Biblioteca Nacional de Colombia (sumado a el horrible reproductor de audio de la plataforma que, de hecho, no sirve en Firefox), desarrollé un pequeño módulo para descargar su contendo fácilmente. 
+  github: https://github.com/cazdlt/bnc
+  website: https://catalogoenlinea.bibliotecanacional.gov.co/client/es_ES/bd/?
+
+- name: Comparing state-of-the-art methods of detection and tracking people on security cameras video
+  descr: "The use of security cameras allows to perform video surveillance. Nevertheless, little has been done to get other type of information from the videos. This project develops a people counting system for video from detection and tracking algorithms developed on Python. The use of trackers and detectors makes the system more robust to avoid overcounting problems."
+  website: https://ieeexplore.ieee.org/document/8730271
+  #   image: pong.png
 #   github: https://github.com/renyuanz/leonids
+

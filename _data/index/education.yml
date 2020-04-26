@@ -1,7 +1,7 @@
-# - name: Massachusets Instutite of Technology
-#   link: http://web.mit.edu/
-#   date: 2011 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-#   descr: <br> (expected graduation in 2019)
+- name: Pontificia Universidad Javeriana
+  link: https://www.javeriana.edu.co/home
+  date: 2014 - 2019
+  descr: Ingeniería electrónica
 
 # - name: Harvard
 #   link: http://www.harvard.edu/
