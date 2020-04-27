@@ -8,6 +8,7 @@ email: cazdlt@gmail.com
 description: 
 url: # the base hostname & protocol for your site
 keywords: ["blog", "jekyll"]
+# repository: cazdlt/cazdlt.github.io
 
 #
 ###################################
@@ -49,7 +50,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: cazdlt
+  githubuser: cazdlt
   gitlab: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: camilo-andrés-zamora-de-la-torre-891277174

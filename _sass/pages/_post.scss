@@ -10,6 +10,7 @@
   transform: translate3d(0,0,1px);
   @include media-query($small-screen) {
     padding: 50px 160px 0 40px;
+    top: 40vh;
   }
   @include media-query($medium-screen) {
     height: 100vh;
