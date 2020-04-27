@@ -3,11 +3,11 @@
 # Site wide configuration
 ####################################
 #
-title: cazdlt
+title: Camilo Andrés Zamora 
 email: cazdlt@gmail.com
-description: 
-url: # the base hostname & protocol for your site
-keywords: ["blog", "jekyll"]
+description: Sitio personal para Camilo Andrés Zamora de la Torre
+url: https://zamoradelatorre.com/
+keywords: ["camilo","zamora", "blog"]
 # repository: cazdlt/cazdlt.github.io
 
 #
@@ -19,7 +19,7 @@ timezone:          America/Bogota
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--ver más-->
-permalink:         /articles/:year/:month/:title
+permalink:         /posts/:year/:month/:title
 
 kramdown:
   auto_ids: true

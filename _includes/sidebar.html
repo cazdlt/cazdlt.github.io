@@ -15,9 +15,11 @@
         <a href="{{ site.url }}/">inicio</a>
       </li>
       {% for page in site.pages %} {% if page.title %}
+      {% unless page.ignorenav %}
       <li class="nav-item">
         <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
       </li>
+      {% endunless %}
       {% endif %} {% endfor %}
     </ul>
   </nav>
