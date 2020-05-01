@@ -12,4 +12,15 @@ TODO:
 		- Blog profesional
 		- Diferentes proyectos
 - Agregar contenido real jejejej
+	- Ideas:
+		- (blog) Análisis de mi historia musical en last.fm
+			- intentar usar cosas de aprendizaje no supervisado para hallar patrones
+		- (blog) varios escritos
+		- (app) Aleatorio real para spotify
+		- (app) Separar canciones por BPM (para practicar coreos)
+			- A partir de canciones de una playlist
+			- A partir de un género dado
+			- A partir de recomendaciones sobre 5 canciones/artistas que escoja el usuario
+		- (app) Recrear cosas del last.fm playground de antes :(
+		- (app/ai) Generador automático de música (??)
 - Revisar SEO y Google Analytics
