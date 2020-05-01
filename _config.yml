@@ -28,6 +28,9 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
+collections:
+  - projects
+
 #
 ###################################
 # Site Owner configuration
@@ -42,33 +45,13 @@ owner:
   email: cazdlt@gmail.com
   disqus-shortname:
   twitter: cazdlt
-  facebook: #cazdlt
   google:
-    # plus: #username
     analytics:
     verify:
     ad-client:
     ad-slot:
   bing-verify:
   githubuser: cazdlt
-  gitlab: #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: camilo-andrés-zamora-de-la-torre-891277174
-  skype: #username
-  xing: #username
-  # instagram: cazdlt_
   lastfm: cazdlt
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  500px: #username
-  codepen: #username
-  # reddit: cazdlt
-  telegram: #username
   spotify: cazdlt

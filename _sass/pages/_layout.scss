@@ -4,7 +4,7 @@
   position: fixed;
   text-align: center;
   width: 100%;
-  height: 30vh;
+  height: 40vh;
   padding: 30px 15px 20px;
   z-index: 1;
   @include media-query($small-screen) {
@@ -21,6 +21,7 @@
 .cover-card {
   color: $text-color;
   padding: 0 30px;
+
   .avatar {
     border-radius: 50%;
     width: 100px;
@@ -56,6 +57,10 @@
     text-align: right;
     margin: 0 auto;
     padding: 0 0px 80px;
+  }
+  .current-page{
+    font-weight: bold;
+    color: $warning !important
   }
 }
 .social-links {

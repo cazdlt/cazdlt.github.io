@@ -1,4 +1,5 @@
-{% if page.author %} {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %} {% endif %}
+{% if page.author %} {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
+{% endif %}
 
 <div class="cover-card table-cell table-middle">
   {% if author.avatar %}
@@ -11,14 +12,42 @@
   {% comment %} <span class="author_bio mbm">{{ author.bio }}</span> {% endcomment %}
   <nav class="nav">
     <ul class="nav-list">
+
+      {% if page.url == "/" %}
+      <li class="nav-item">
+        <a class="current-page" href="{{ site.url }}/">inicio</a>
+      </li>
+      {% else %}
       <li class="nav-item">
         <a href="{{ site.url }}/">inicio</a>
       </li>
-      {% for page in site.pages %} {% if page.title %}
-      {% unless page.ignorenav %}
+      {% endif %}
+
+      {% for navpage in site.pages %} {% if navpage.title and navpage.parent == "/" %}
+      {% unless navpage.ignorenav %}
       <li class="nav-item">
-        <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
+        <a {% if navpage.url == page.url or navpage.url == page.parent%} class="current-page" {% endif %}
+          href="{{ site.url }}{{ navpage.url }}">{{ navpage.title }}</a>
       </li>
+      {% endunless %}
+      {% endif %} {% endfor %}
+    </ul>
+
+    <ul class="nav-list">
+
+      {% for subpage in site.pages %} {% if subpage.title %}
+      {% unless subpage.ignorenav or subpage.parent == "/"%}
+
+      {% if subpage.parent == page.parent%} {% comment %} HERMANOS class="current-page" {% endcomment %}
+      <li class="nav-item">
+        <a {% if page.url == subpage.url%}class="current-page" {% endif %}href="{{ site.url }}{{ subpage.url }}">{{ subpage.title }}</a>
+      </li>
+      {% elsif subpage.parent == page.url %} {% comment %} HIJOS class="current-page" {% endcomment %}
+      <li class="nav-item">
+        <a href="{{ site.url }}{{ subpage.url }}">{{ subpage.title }}</a>
+      </li>
+      {% endif %}
+
       {% endunless %}
       {% endif %} {% endfor %}
     </ul>
@@ -27,5 +56,5 @@
   {% comment %} <span class="author_bio mbm">{{ author.bio }}</span> {% endcomment %}
 
   {% include social-links.html %}
-  
+
 </div>
