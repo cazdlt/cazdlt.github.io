@@ -18,8 +18,8 @@ keywords: ["camilo","zamora", "blog"]
 collections:
   projects:
     output: true
-    title: Proyectos
-    permalink: /proyectos/:title
+    permalink: /proyecto/:year/:month/:title
+
 
 timezone:          America/Bogota
 markdown:          kramdown
