@@ -4,13 +4,7 @@ Actualmente hosteando desde [Netlify](https://www.netlify.com/) en [blog.zamorad
 Sitio construido en [Jekyll](http://jekyllrb.com/) a partir del tema [*leonid's theme*](http://github.com/renyuanz/leonids/) <br>
 
 TODO:
-- Reorganizar proyecto
-    - Carpeta para páginas
-    - Carpeta de *assets*
-	- Diferentes subdominios para secciones
-		- Blog personal
-		- Blog profesional
-		- Diferentes proyectos
+- Diseñar y escribir la Homepage
 - Agregar contenido real jejejej
 	- Ideas:
 		- (blog) Análisis de mi historia musical en last.fm
@@ -23,4 +17,11 @@ TODO:
 			- A partir de recomendaciones sobre 5 canciones/artistas que escoja el usuario
 		- (app) Recrear cosas del last.fm playground de antes :(
 		- (app/ai) Generador automático de música (??)
+- Reorganizar proyecto
+    - Carpeta para páginas
+    - Carpeta de *assets*
+	- Diferentes subdominios para secciones
+		- Blog personal
+		- Blog profesional
+		- Diferentes proyectos
 - Revisar SEO y Google Analytics
