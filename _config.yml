@@ -5,7 +5,7 @@
 
 title: Camilo Andrés Zamora 
 email: cazdlt@gmail.com
-description: Sitio personal para Camilo Andrés Zamora de la Torre
+description: Sitio personal de Camilo Andrés Zamora de la Torre
 url: #https://zamoradelatorre.com
 keywords: ["camilo","zamora", "blog"]
 
@@ -15,17 +15,11 @@ keywords: ["camilo","zamora", "blog"]
 # Jekyll configuration
 ####################################
 
-collections:
-  projects:
-    output: true
-    permalink: /proyectos/:title
-
-
 timezone:          America/Bogota
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--ver más-->
-permalink:         /:year/:month/:title
+permalink:         /posts/:year/:month/:title
 
 kramdown:
   auto_ids: true
@@ -36,11 +30,11 @@ kramdown:
 
 
 
-#
+
 ###################################
 # Site Owner configuration
 ####################################
-#
+
 owner:
   fullname: Camilo Andrés Zamora de la Torre
   name: una semana después

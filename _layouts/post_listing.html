@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% for post in site.posts %}
+{% for post in site.posts %} {% if post.parent == "/blog" %}
 <section class="post">
   <header class="post-header">
     <p class="post-meta">
@@ -12,7 +12,7 @@ layout: default
       {% if post.categories.size > 0 %}
       •
       {% for cat in post.categories %}
-        <a class="post-cat" href="{{ site.url }}/blog/categorias/#{{ cat }}">{{ cat }}</a>
+        <a class="post-cat" href="{{ site.url }}/categorias/#{{ cat }}">{{ cat }}</a>
         {% unless forloop.last %}
         <span>/</span>
         {% endunless %}
@@ -59,4 +59,4 @@ layout: default
     {% endif %}
 
 </section>
-{% endfor %}
+{% endif %}{% endfor %}

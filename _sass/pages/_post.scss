@@ -83,7 +83,8 @@ section.post {
     font-size: 16px;
     margin: 1px;
     color: #696969;
-    font-family: "Open Sans", "Source Sans Pro", "sans-serif"
+    font-family: "Roboto","Open Sans", "Source Sans Pro", "sans-serif";
+    // font-style: italic;
   }
 }
 
@@ -101,7 +102,7 @@ a.read-more {
 
 #post {
   padding-bottom: 50px;
-  font-family: "Roboto";
+  font-family: "Roboto", "Open Sans", "Source Sans Pro", "sans-serif";
   .post-header {
     margin: 0 auto 50px;
   }
@@ -110,7 +111,7 @@ a.read-more {
 #post h1 {
   margin: 0.5em 0 0.2em;
   font-size: 36px;
-  font-family: Manrope, Open Sans, Source Sans Pro,sans-serif;
+  font-family: "Open Sans","Raleway","Roboto",  "Source Sans Pro", "sans-serif";
   // color: black
 }
 #post h2 {
