@@ -129,11 +129,11 @@
 
 .post-header {
   .post-title {
-    font-family: "Open Sans","Roboto", "Source Sans Pro", "sans-serif";
+    font-family: "Open Sans", "Roboto", "Source Sans Pro", "sans-serif";
     font-size: 30px;
   }
   .post-description {
-    font-family: "Roboto","Open Sans", "Source Sans Pro", "sans-serif";
+    font-family: "Roboto", "Open Sans", "Source Sans Pro", "sans-serif";
     color: #696969;
     font-size: 16px;
     // font-style: italic;
@@ -208,17 +208,17 @@ input[type="submit"] {
   }
 }
 
-.home{
+.home {
   font-family: "Open Sans", "sans-serif";
   display: flex;
   flex-direction: column;
   height: 95%;
-  h1{
-    font-family: "Roboto","Raleway","sans-serif";
+  h1 {
+    font-family: "Roboto", "Raleway", "sans-serif";
     font-weight: 600;
     margin: 5vh auto 2vh;
   }
-  .fragment{
+  .fragment {
     font-style: italic;
     // margin-right: 30vw;
     margin-top: auto;
@@ -227,26 +227,18 @@ input[type="submit"] {
   }
   .grid {
     display: grid;
-    justify-self: center;
-    grid-template-columns: 1fr 1fr;
-    // grid-auto-rows: 75px;
-    gap: 10px 10px;
-    width: 80%;
-    height: 60%;
-    margin: 0 auto 0;
-    justify-items: center;
-    align-items: center;
-    border: 1px solid #000;
-  }
-  
-  .grid-item {
-    display: flex;            /* new */
-    align-items: center;      /* new */
-    justify-content: center;  /* new */
-    // background-color: lightgreen;
-    height: 100%;
-    width: 100%;
-    border: 1px solid #555;
-    margin: 1px
+    grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(40%, 1fr));
+    grid-gap: 5px;
+    // border: 1px solid #000;
+    place-content: center;
+    height: 90%;
+
+    img {
+      width: 100%;
+      height: 100%;;
+      object-fit: cover;
+      object-position: bottom;
+    }
   }
 }

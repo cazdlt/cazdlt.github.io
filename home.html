@@ -6,18 +6,20 @@ parent: /
 ---
 
 <div class="home">
-    
-    <h1>{{ site.title }}</h1>
+
+    {% comment %} <h1>{{ site.title }}</h1> {% endcomment %}
 
     {% comment %} PONER IMÁGENES PARA ESTOS LINKS {% endcomment %}
     <div class="grid">
-        <h2 class="grid-item"><a href="/blog">blog</a></h2>
-        <h2 class="grid-item"><a href="/proyectos">proyectos</a></h2>
-        <h2 class="grid-item"><a href="/cv">cv</a></h2>
-        <h2 class="grid-item"><a href="/contacto">contacto</a></h2>
+        {% comment %} <div class="page-link"></div> {% endcomment %}
+        <a href="/blog"><img class="bg" src="img/foto (6).jpg" /></a>
+        <a href="/proyectos"><img class="bg" src="img/foto (2).jpg" /></a>
+        <a href="/contacto"><img class="bg" src="img/foto (7).jpg" /></a>
+        <a href="/cv"><img class="bg" src="img/foto (8).jpg" /></a>
     </div>
 
     <div class="fragment">
         ..."En Macondo no ha pasado nada, ni está pasando ni pasará nunca. Este es un pueblo feliz"
     </div>
+
 </div>
