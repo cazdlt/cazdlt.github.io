@@ -18,7 +18,7 @@ keywords: ["camilo","zamora", "blog"]
 collections:
   projects:
     output: true
-    permalink: /proyecto/:year/:month/:title
+    permalink: /proyectos/:title
 
 
 timezone:          America/Bogota
