@@ -1,20 +1,26 @@
-#
+
 ###################################
 # Site wide configuration
 ####################################
-#
+
 title: Camilo Andrés Zamora 
 email: cazdlt@gmail.com
 description: Sitio personal para Camilo Andrés Zamora de la Torre
 url: #https://zamoradelatorre.com
 keywords: ["camilo","zamora", "blog"]
-# repository: cazdlt/cazdlt.github.io
 
-#
+
+
 ###################################
 # Jekyll configuration
 ####################################
-#
+
+collections:
+  projects:
+    output: true
+    title: Proyectos
+    permalink: /proyectos/:title
+
 timezone:          America/Bogota
 markdown:          kramdown
 highlighter:       rouge
@@ -28,8 +34,7 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
-collections:
-  - projects
+
 
 #
 ###################################
