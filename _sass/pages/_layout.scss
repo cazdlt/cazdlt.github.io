@@ -212,7 +212,8 @@ input[type="submit"] {
   font-family: "Open Sans", "sans-serif";
   display: flex;
   flex-direction: column;
-  height: 95%;
+  height: auto;
+
   h1 {
     font-family: "Roboto", "Raleway", "sans-serif";
     font-weight: 600;
@@ -220,25 +221,98 @@ input[type="submit"] {
   }
   .fragment {
     font-style: italic;
-    // margin-right: 30vw;
-    margin-top: auto;
+    margin: 1em;
     font-size: 14px;
     align-self: flex-end;
   }
+
+  //Tomado de https://webdesign.tutsplus.com/tutorials/create-a-css-grid-image-gallery-with-blur-effect-and-interaction-media-queries--cms-32287
   .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(40%, 1fr));
+    
+    // grid-template-rows: repeat(auto-fit, minmax(40%, 1fr));
     grid-gap: 5px;
     // border: 1px solid #000;
     place-content: center;
-    height: 90%;
+    max-height: 90%;
+    @include media-query($medium-screen) {
+      grid-template-columns: repeat(auto-fill, 44%);
+    }
 
-    img {
-      width: 100%;
-      height: 100%;;
-      object-fit: cover;
-      object-position: bottom;
+    .home-links {
+      position: relative;
+
+      .link-img, img {
+        height: 100%;
+        width: 100%;
+        line-height: 0;
+        object-fit: cover;
+        object-position: bottom;
+      }
+
+      .link-title {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: opacity 0.5s;
+        z-index: 2;
+
+        /* typographic styles */
+        color: white;
+        font-size: 1.5em;
+        font-weight: bold;
+
+        /* position the text centrally*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .link-desc {
+        position: absolute;
+        height: 98%;
+        width: 98%;
+        opacity: 0;
+        transition: opacity 0.5s;
+        z-index: 1;
+
+        /* typographic styles */
+        color: white;
+        font-size: 1em;
+        font-weight: bold;
+        
+
+        /* position the text centrally*/
+        display: flex;
+        align-items: end;
+        justify-content: end;
+      }
+
+      &:hover {
+        .link-title{
+          opacity: 1;
+          background: #16191f8e;
+        }
+
+        .link-desc{
+          opacity: 1;
+        }
+
+        img{
+          filter: grayscale(100%) blur(1px);
+        }        
+      }
+
+      @media (hover: none) { 
+        .link-title {
+          opacity: 1;
+          background: #16191f79;
+        }
+        .location-image img {
+          filter: grayscale(100%) blur(1px);
+        }
+      }
     }
   }
 }

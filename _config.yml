@@ -3,7 +3,8 @@
 # Site wide configuration
 ####################################
 
-title: Camilo Andrés Zamora 
+title: Camilo Andrés Zamora
+short_title: Andrés Zamora
 email: cazdlt@gmail.com
 description: Sitio personal de Camilo Andrés Zamora de la Torre
 url: #https://zamoradelatorre.com
@@ -39,7 +40,7 @@ owner:
   fullname: Camilo Andrés Zamora de la Torre
   name: una semana después
   # avatar: leonids-logo.png
-  job: seguía lloviendo
+  job: una semana después seguía lloviendo
   bio: andrés zamora
   email: cazdlt@gmail.com
   disqus-shortname:

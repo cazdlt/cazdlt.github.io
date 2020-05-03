@@ -7,8 +7,16 @@
     <img src="{{ site.url }}/img/{{ author.avatar }}" alt="" class="avatar">
   </a>
   {% endif %}
+
+   {% comment %} if page.url == "/cv" {% endcomment %}
+  <a href="{{ site.url }}/" class="author_name">{{ author.bio }}</a>
+  {% comment %} <span class="author_job">{{ author.job }}</span> {% endcomment %}
+  {% comment %} {% else %}
+  <span {{ page.url }}></span>
   <a href="{{ site.url }}/" class="author_name">{{ author.name }}</a>
   <span class="author_job">{{ author.job }}</span>
+  {% endif %} {% endcomment %}
+
   {% comment %} <span class="author_bio mbm">{{ author.bio }}</span> {% endcomment %}
   <nav class="nav">
     <ul class="nav-list">
