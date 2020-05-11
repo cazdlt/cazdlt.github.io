@@ -18,9 +18,17 @@ layout: default
       {% endif %}
       <div class="post-date">
         {{ page.date | date: "%Y-%m-%d " | upcase }}
+      
+      {% if page.categories.size > 0 %}
+      •
+      {% for cat in page.categories %}
+        <a class="post-cat" href="{{ site.url }}/categorias/#{{ cat }}">{{ cat }}</a>
+        {% unless forloop.last %}
+        <span>/</span>
+        {% endunless %}
+      {% endfor %}
+      {% endif %}
       </div>
-      {% comment %} •
-      {% include read_time.html %} {% endcomment %}
     </span>
     <hr>
   </header>
