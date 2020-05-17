@@ -1,7 +1,13 @@
+- name: Data Science For All - Colombia 2020
+  link: https://www.talentodigital.gov.co/635/w3-article-135676.html
+  date: Mayo 2020 - <i class="far fa-clock" title="Ahora"></i>
+  descr: Convocatoria a nivel nacional para formación en Ciencia de Datos
+
 - name: Pontificia Universidad Javeriana
   link: https://www.javeriana.edu.co/home
   date: 2014 - 2019
   descr: Ingeniería electrónica
+
 
 # - name: Harvard
 #   link: http://www.harvard.edu/

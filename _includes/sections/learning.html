@@ -1,9 +1,16 @@
 <h1><span data-i18n="skills.my_skills">Aprendiendo</span></h1>
 
 <div class="timeline" id="timeline">
-    <ul>
-        <li>Deep Learning</li>
-        <li>React.js para montar proyectos</li>
-        <li>D3.js para tener sus visualizaciones</li>
-    </ul>
+    {% comment %} <ul> {% endcomment %}
+        {% for skill in site.data.index.learning %}
+        <span><b>{{ skill.what }}</b></span>
+        {% if skill.why %}
+        <ul>
+            {% for idea in skill.why %}
+            <li>{{ idea }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+        {% endfor %}
+    {% comment %} </ul> {% endcomment %}
 </div>

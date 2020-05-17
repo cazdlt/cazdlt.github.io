@@ -2,7 +2,7 @@
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name: Delta IT Solutions
   link: http://www.deltaits.com/
-  date: Diciembre 2018 - <i class="fa fa-clock-o" aria-hidden="true" title="Ahora"></i>
+  date: Diciembre 2018 - <i class="far fa-clock" title="Ahora"></i>
   job: Especialista en seguridad
 
 - name: Pontificia Universidad Javeriana

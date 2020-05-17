@@ -1,8 +1,13 @@
 {% comment %} <footer class="table-footer"> {% endcomment %}
-<footer>
-  <hr>
-  {{ site.owner.fullname }}. {{ site.time | date: '%Y' }}.
-  Tema: <a href="http://github.com/renyuanz/leonids/" target="_blank" rel="noopener noreferrer">leonids theme</a> modificado.</i>
-  Usando <a href="http://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll.</a><br>
-  Contacto: <a href="/contacto">cazdlt@gmail.com</a> | (+57) 318 560 8101 
-</footer>
+  <footer>
+    <hr>
+    {% include social-links.html %}
+    <div class="fragment">
+      ..."En Macondo no ha pasado nada, ni está pasando ni pasará nunca. Este es un pueblo feliz"
+    </div>
+    <br>
+    {{ site.owner.fullname }}. {{ site.time | date: '%Y' }}.
+    Basado en: <a href="http://github.com/renyuanz/leonids/" target="_blank" rel="noopener noreferrer">leonids theme</a>.
+    Usando <a href="http://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll.</a><br>
+    <a href="/contacto">{{ site.owner.email }}</a> | {{ site.owner.phone }}
+  </footer>
