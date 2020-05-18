@@ -17,17 +17,17 @@ layout: default
       </span>
       {% endif %}
       <div class="post-date">
-        {{ page.date | date: "%Y-%m-%d " | upcase }}
-      
-      {% if page.categories.size > 0 %}
-      •
-      {% for cat in page.categories %}
+        <a class="post-date" href="{{ site.url }}/archivo">{{ page.date | date: "%Y-%m-%d " | upcase }}</a>
+
+        {% if page.categories.size > 0 %}
+        •
+        {% for cat in page.categories %}
         <a class="post-cat" href="{{ site.url }}/categorias/#{{ cat }}">{{ cat }}</a>
         {% unless forloop.last %}
         <span>/</span>
         {% endunless %}
-      {% endfor %}
-      {% endif %}
+        {% endfor %}
+        {% endif %}
       </div>
     </span>
     <hr>

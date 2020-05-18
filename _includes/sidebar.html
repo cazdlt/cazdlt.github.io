@@ -22,41 +22,41 @@
     <ul class="nav-list">
 
       {% if page.url == "/" %}
-      <li class="nav-item">
-        <a class="current-page" href="{{ site.url }}/">inicio</a>
-      </li>
-      {% else %}
-      <li class="nav-item">
-        <a href="{{ site.url }}/">inicio</a>
-      </li>
+        <li class="nav-item">
+          <a class="current-page" href="{{ site.url }}/">inicio</a>
+        </li>
+        {% else %}
+        <li class="nav-item">
+          <a href="{{ site.url }}/">inicio</a>
+        </li>
       {% endif %}
 
       {% for navpage in site.pages %} {% if navpage.title and navpage.parent contains "/" %}
-      {% unless navpage.ignorenav %}
-      <li class="nav-item">
-        <a {% if navpage.url == page.url %} class="current-page" {% endif %}
-          href="{{ site.url }}{{ navpage.url }}">{{ navpage.title }}</a>
-      </li>
-      {% endunless %}
+        {% unless navpage.ignorenav %}
+        <li class="nav-item">
+          <a {% if navpage.url == page.url or (navpage.url == page.parent and page.url contains "posts")%} class="current-page" {% endif %}
+            href="{{ site.url }}{{ navpage.url }}">{{ navpage.title }}</a>
+        </li>
+        {% endunless %}
       {% endif %} {% endfor %}
     </ul>
 
     <ul class="nav-list">
 
       {% for subpage in site.pages %} {% if subpage.title %}
-      {% unless subpage.ignorenav or subpage.parent contains "/"%}
+        {% unless subpage.ignorenav or subpage.parent contains "/"%}
 
-      {% if subpage.parent == page.parent%} {% comment %} HERMANOS class="current-page" {% endcomment %}
-      <li class="nav-item">
-        <a {% if page.url == subpage.url%}class="current-page" {% endif %}href="{{ site.url }}{{ subpage.url }}">{{ subpage.title }}</a>
-      </li>
-      {% elsif subpage.parent contains page.url %} {% comment %} HIJOS class="current-page" {% endcomment %}
-      <li class="nav-item">
-        <a href="{{ site.url }}{{ subpage.url }}">{{ subpage.title }}</a>
-      </li>
-      {% endif %}
+          {% if subpage.parent == page.parent%} {% comment %} HERMANOS class="current-page" {% endcomment %}
+            <li class="nav-item">
+              <a {% if page.url == subpage.url %}class="current-page" {% endif %}href="{{ site.url }}{{ subpage.url }}">{{ subpage.title }}</a>
+            </li>
+          {% elsif subpage.parent contains page.url or page.url contains "posts"%} {% comment %} HIJOS class="current-page" {% endcomment %}
+            <li class="nav-item">
+              <a href="{{ site.url }}{{ subpage.url }}">{{ subpage.title }}</a>
+            </li>
+          {% endif %}
 
-      {% endunless %}
+        {% endunless %}
       {% endif %} {% endfor %}
     </ul>
   </nav>
