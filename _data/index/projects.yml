@@ -1,3 +1,7 @@
+- name: PyISIM
+  descr: Python client for IBM Security Identity Manager (ISIM/ITIM) web services 
+  github: https://github.com/cazdlt/pyisim
+
 - name: Apuntes, notas, datos e implementaciones para temas de aprendizaje automático.
   descr: Recopilación de contenido relacionado a ciencia de datos, aprendizaje automático e inteligencia artificial. Contiene apuntes, notas, enlaces a cursos, enlaces a libros, ideas de proyectos, implementaciones de diferentes algoritmos y enlaces a contenido relacionados. Continuamente en construcción. 
   github: https://github.com/cazdlt/MLPython
