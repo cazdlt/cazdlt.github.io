@@ -1,18 +1,24 @@
 const getData = async () => {
-    let response = await fetch("https://icanhazdadjoke.com/", {
-        headers: {
-            Accept: "text/plain"
-        }
-    });
-    let data = response.text();
-    return data;
+    try {
+        const url = `${window.location.origin}/.netlify/functions/frases`;
+
+        let response = await fetch(url, {
+            headers: {
+                Accept: "text/plain"
+            }
+        });
+        if (response.ok) return response.text();
+        else throw response;
+    } catch (e) {
+        console.log(e);
+        return "no mucho - hubo un error :(";
+    }
 };
 
-function getJoke() {
+function getFrase() {
     document.getElementById("joke-btn").innerHTML = "¿Qué más dicen?";
     getData()
         .then((data) => {
-            console.log(data);
             document.getElementById("joke").innerHTML = data;
         })
         .catch((e) => console.log(e.message));
