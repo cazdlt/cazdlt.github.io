@@ -4,17 +4,21 @@ layout: post
 <div class="gallery">
     {% for review in site.data.index.reviews %}
     <div class="review">
+
         <img class="album-cover" src="{{ site.url }}/img/reviews/{{ review.cover }}" alt="{{ review.album }} cover" >
         <div class="title">
             {{ review.artist }} - {{ review.album }} ({{ review.year }})
         </div>
-        
+        <ul class="genre">
+            {% for genre in review.genre %}
+            <li>{{ genre }}</li>
+            {% endfor %}
+        </ul>
         <div id="review{{ forloop.index }}"></div>
         <script id="stars"> getStars("{{ forloop.index }}","{{ review.score }}"); </script>
 
         <div class="review-text">{{ review.review }}</div>
         <div class="review-date">{{ review.date }}</div>
-        
         
     </div>
     {% endfor %}
