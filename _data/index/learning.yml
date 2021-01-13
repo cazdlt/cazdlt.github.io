@@ -3,7 +3,7 @@
     - Scheduler para red con SIC Cooperativo 
     - Bot de Tetris Clásico
 
-- what: React.js + Gatsby
+- what: React.js + Next.js
   why: 
     - Visualizaciones para Last.fm
     - Mezclar playlist y <i>true random</i> en Spotify

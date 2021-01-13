@@ -1,0 +1,35 @@
+- album: Voltaje Raizal
+  artist: Rizomagic
+  cover: voltaje raizal.jpg
+  year: 2020
+  score: 7
+  review: Música tropical colombiana pero el único instrumento en el mundo es un Nintendo 64
+  genre: ["Cumbia", "Electrónica"]
+  date: Enero 10
+ 
+- album: West of Eden
+  artist: HMLTD
+  cover: west of eden.jpg
+  year: 2020
+  score: 5
+  review: Ingleses dramáticos y diversos
+  genre: ["Glam Rock","Pop"]
+  date: Enero 11
+ 
+- album: Sextant
+  artist: Herbie Hancock
+  cover: sextant.jpg
+  year: 1973
+  score: 8
+  review: Publicado en 1973 pero grabado en 2973
+  genre: ["Jazz Funk", "Repetitivo"]
+  date: Enero 12
+  
+- album: "Cumbias Chichadelicas: Peruvian Psychedelic Chicha"
+  artist: Varios
+  cover: chicha.webp
+  year: 2014
+  score: 7
+  review: Kusa
+  genre: ["Cumbia peruana", "Chicha"]
+  date: Enero 12

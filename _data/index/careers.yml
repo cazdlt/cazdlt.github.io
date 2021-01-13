@@ -1,8 +1,16 @@
-# careers section data
-# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: Frubana
+  link: https://www.linkedin.com/company/frubana/
+  date: Diciembre 2020 - <i class="far fa-clock" title="Ahora"></i>
+  job: Python Developer
+
+- name: Globant
+  link: https://www.globant.com/
+  date: Noviembre 2020 - Diciembre 2020
+  job: Python Developer
+
 - name: Delta IT Solutions
   link: http://www.deltaits.com/
-  date: Diciembre 2018 - <i class="far fa-clock" title="Ahora"></i>
+  date: Diciembre 2018 - Noviembre 2020
   job: Especialista en seguridad
 
 - name: Pontificia Universidad Javeriana
