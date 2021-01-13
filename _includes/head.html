@@ -38,9 +38,9 @@
   <meta name="twitter:title" content="{{ title | escape }}">
   <meta name="twitter:description" content="{{ description | escape }}">
   {% if page.image.feature %}
-    <meta property="twitter:image" content="{{ site.url }}/img/{{ page.image.feature }}">
+    <meta property="twitter:image" content="{{ site.url }}/assets/img/{{ page.image.feature }}">
   {% else %}
-    <meta property="twitter:image" content="{{ site.url }}/favicon.png">
+    <meta property="twitter:image" content="{{ site.url }}/assets/favicon.png">
   {% endif %}
 
   <!-- Open Graph Tags -->
@@ -49,22 +49,22 @@
   <meta property="og:title" content="{{ title | escape }}">
   <meta property="og:description" content="{{ description | escape }}">
   {% if page.image.feature %}
-    <meta property="og:image" content="{{ site.url }}/img/{{ page.image.feature }}">
+    <meta property="og:image" content="{{ site.url }}/assets/img/{{ page.image.feature }}">
   {% else %}
-    <meta property="og:image" content="{{ site.url }}/favicon.png">
+    <meta property="og:image" content="{{ site.url }}/assets/favicon.png">
   {% endif %}
   <title>{{ title }}</title>
 
   <!-- CSS files -->
-  {% comment %} <link rel="stylesheet" href="{{ site.url }}/css/fontawesome/all.css"> {% endcomment %}
-  <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+  {% comment %} <link rel="stylesheet" href="{{ site.url }}/assets/css/fontawesome/all.css"> {% endcomment %}
+  <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | prepend: site.url }}" />
+  <!-- <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | prepend: site.url }}" /> -->
 
   <!-- Icons -->
   <!-- 16x16 -->
-  <link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
+  <link rel="shortcut icon" href="{{ site.url }}/assets/favicon.ico">
   <!-- 32x32 -->
-  <link rel="shortcut icon" href="{{ site.url }}/favicon.png">
+  <link rel="shortcut icon" href="{{ site.url }}/assets/favicon.png">
 </head>

@@ -1,13 +1,14 @@
-- what: Deep Learning (NYU Lecun/Canziani)
+- what: Deep Learning (NYU Lecun / Canziani)
   why: 
     - Scheduler para red con SIC Cooperativo 
-    - Bot de Tetris Clásico
+    - Bot de Tetris NES
+    - Separación de instrumentos
 
 - what: React.js + Next.js
   why: 
     - Visualizaciones para Last.fm
     - Mezclar playlist y <i>true random</i> en Spotify
-    - Web Kolibrika (empresa de mi mamá)
+    - kolibrika.co
   
 - what: Flutter
   why:

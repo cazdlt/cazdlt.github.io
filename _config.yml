@@ -22,7 +22,7 @@ highlighter:       rouge
 excerpt_separator: <!--ver más-->
 permalink:         /posts/:year/:month/:title
 sass:
-    sass_dir: css/_sass
+    sass_dir: assets/css/_sass
 kramdown:
   auto_ids: true
   footnote_nr: 1
