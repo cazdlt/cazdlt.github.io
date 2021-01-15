@@ -1,4 +1,5 @@
-- album: Voltaje Raizal
+- id: 1
+  album: Voltaje Raizal
   artist: Rizomagic
   cover: voltaje raizal.jpg
   year: 2020
@@ -6,8 +7,9 @@
   review: Música tropical colombiana pero el único instrumento en el mundo es un Nintendo 64
   genre: ["Cumbia", "Electrónica"]
   date: Enero 10
- 
-- album: West of Eden
+
+- id: 2
+  album: West of Eden
   artist: HMLTD
   cover: west of eden.jpg
   year: 2020
@@ -15,8 +17,9 @@
   review: Ingleses dramáticos
   genre: ["Glam Rock","Pop"]
   date: Enero 11
- 
-- album: Sextant
+
+- id: 3
+  album: Sextant
   artist: Herbie Hancock
   cover: sextant.jpg
   year: 1973
@@ -24,8 +27,9 @@
   review: Publicado en 1973 pero grabado en 2973
   genre: ["Jazz Funk"]
   date: Enero 12
-  
-- album: "Cumbias Chichadelicas: Peruvian Psychedelic Chicha"
+
+- id: 4
+  album: "Cumbias Chichadelicas: Peruvian Psychedelic Chicha"
   artist: Varios
   cover: chicha.webp
   year: 2014
@@ -33,3 +37,13 @@
   review: Kusa
   genre: ["Cumbia peruana", "Chicha"]
   date: Enero 12
+
+- id: 5
+  album: songs
+  artist: Adrianne Lenker
+  cover: songs.webp
+  year: 2020
+  score: 9
+  review: Moscas en la casa
+  genre: ["Folk", "Cantautor"]
+  date: Diciembre 1

@@ -2,7 +2,8 @@
 layout: post
 ---
 <div class="gallery">
-    {% for review in site.data.index.reviews %}
+    {% assign sorted = site.data.index.reviews | sort: 'id' | reverse %}
+    {% for review in sorted %}
     <div class="review">
 
         <img class="album-cover" src="{{ site.url }}/assets/img/reviews/{{ review.cover }}" alt="{{ review.album }} cover" >
