@@ -3,7 +3,7 @@
   artist: Rizomagic
   cover: voltaje raizal.jpg
   year: 2020
-  score: 7
+  score: 6
   review: Música tropical colombiana pero el único instrumento en el mundo es un Nintendo 64
   genre: ["Cumbia", "Electrónica"]
   date: Enero 10
@@ -13,7 +13,7 @@
   artist: HMLTD
   cover: west of eden.jpg
   year: 2020
-  score: 5
+  score: 4
   review: Ingleses dramáticos
   genre: ["Glam Rock","Pop"]
   date: Enero 11
@@ -33,9 +33,9 @@
   artist: Varios
   cover: chicha.webp
   year: 2014
-  score: 7
+  score: 6
   review: Kusa
-  genre: ["Cumbia peruana", "Chicha"]
+  genre: ["Cumbia Peruana", "Chicha"]
   date: Enero 12
 
 - id: 5
@@ -46,4 +46,65 @@
   score: 9
   review: Moscas en la casa
   genre: ["Folk", "Cantautor"]
-  date: Diciembre 1
+  date: Enero 14
+ 
+- id: 6
+  album: PONG
+  artist: Piel Camaleón
+  cover: pong.webp
+  year: 2020
+  score: 6
+  review: >
+    *Dies from cringe (while dancing)*
+  genre: ["Funky Pop"]
+  date: Enero 15
+ 
+- id: 7
+  album: Circles
+  artist: Mac Miller
+  cover: circles.webp
+  year: 2020
+  score: 8
+  review: Muy triste pero tranqui
+  genre: ["Mellow Pop"]
+  date: Enero 20
+
+# - id: 8 #todo
+#   album: Shabrang
+#   artist: Sevdaliza
+#   cover: shabrang.webp
+#   year: 2020
+#   score: 7
+#   review: 
+#   genre: [""]
+#   date: Enero 20
+ 
+- id: 9 
+  album: Canciones Crudas
+  artist: La Muchacha
+  cover: canciones crudas.webp
+  year: 2020
+  score: 8
+  review: La música que me gustaría que tocara el pana que lleva la guitarra al paseo
+  genre: ["Cantautor", "Colombia"]
+  date: Enero 20
+
+- id: 10
+  album: Miss Colombia
+  artist: Lido Pimienta
+  cover: miss colombia.webp
+  year: 2020
+  score: 9
+  review: El Mal Querer en el caribe colombiano
+  genre: ["Art Pop"]
+  date: Enero 20
+ 
+- id: 11
+  album: Thriller
+  artist: Michael Jackson
+  cover: thriller.webp
+  year: 1982
+  score: 10
+  review: clásico/10
+  genre: ["Pop"]
+  date: Enero 23
