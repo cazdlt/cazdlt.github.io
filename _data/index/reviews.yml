@@ -65,19 +65,19 @@
   cover: circles.webp
   year: 2020
   score: 8
-  review: Muy triste pero tranqui
+  review: Muy triste pero todo bien
   genre: ["Mellow Pop"]
   date: Enero 20
 
-# - id: 8 #todo
-#   album: Shabrang
-#   artist: Sevdaliza
-#   cover: shabrang.webp
-#   year: 2020
-#   score: 7
-#   review: 
-#   genre: [""]
-#   date: Enero 20
+- id: 8 
+  album: Shabrang
+  artist: Sevdaliza
+  cover: shabrang.webp
+  year: 2020
+  score: 8
+  review: Autotuned bliss
+  genre: ["Art Pop", "Trip-Hop"]
+  date: Enero 20
  
 - id: 9 
   album: Canciones Crudas
@@ -108,3 +108,27 @@
   review: clásico/10
   genre: ["Pop"]
   date: Enero 23
+
+- id: 12
+  album: Gaiteros y Tamboleros
+  artist: Bajeros de la Montaña
+  cover: gaiteros y tamboleros.jpg
+  year: 2006
+  score: 7
+  review: La muerte suena bueno
+  genre: ["Cumbia", "Gaita"]
+  date: Enero 27
+  
+- id: 13
+  album: Oil of Every Pearl's Un-Insides 
+  artist: SOPHIE 
+  cover: sophie.webp
+  year: 2018
+  score: 8
+  review: >
+    Is it cold in the water? <br>
+    (I'm swimming, I'm breathing, evaporating) <br>
+    Is it cold in the water? <br>
+    (I'm liquid, I'm floating into the blue)
+  genre: ["Pop", "Glitch"]
+  date: Enero 31
