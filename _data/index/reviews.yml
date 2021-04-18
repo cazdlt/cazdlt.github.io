@@ -115,7 +115,7 @@
   cover: gaiteros y tamboleros.jpg
   year: 2006
   score: 7
-  review: La muerte suena bueno
+  review: la muerte suena bueno
   genre: ["Cumbia", "Gaita"]
   date: Enero 27
   
@@ -124,7 +124,7 @@
   artist: SOPHIE 
   cover: sophie.webp
   year: 2018
-  score: 8
+  score: 9
   review: >
     Is it cold in the water? <br>
     (I'm swimming, I'm breathing, evaporating) <br>
@@ -132,3 +132,135 @@
     (I'm liquid, I'm floating into the blue)
   genre: ["Pop", "Glitch"]
   date: Enero 31
+  
+- id: 14
+  album: Big Fish Theory
+  artist: Vince Staples
+  cover: big fish theory.webp
+  year: 2017
+  score: 7
+  review: the 🐡 go hard
+  genre: ["Hip-Hop"]
+  date: Febrero 1
+
+- id: 15
+  album: We Will Always Love You
+  artist: The Avalanches
+  cover: we will always love you.webp
+  year: 2020
+  score: 9
+  review: a smooth multicolor experience
+  genre: ["Neo-psychedelia"]
+  date: Febrero 10
+
+- id: 16
+  album: Galguerías
+  artist: El Kalvo
+  cover: galguerias.jpg
+  year: 2020
+  score: 6
+  review: no más polombia
+  genre: ["Hip-Hop"]
+  date: Febrero 15
+
+- id: 17
+  album: Bitute
+  artist: El Kalvo
+  cover: bitute.jpg
+  year: 2020
+  score: 8
+  review: mucho mejor
+  genre: ["Hip-Hop"]
+  date: Febrero 15
+
+- id: 17
+  album: Miles
+  artist: Blu & Exile
+  cover: miles.webp
+  year: 2020
+  score: 7
+  review: >
+    first half: sick beats
+    second half: sick bars
+  genre: ["Hip-Hop"]
+  date: Febrero 20
+
+- id: 18
+  album: La Hora de la Ira de la Era
+  artist: Sociedad para el Cuidado de uno Mismo (SCUM)
+  cover: lhdlidle.webp
+  year: 2020
+  score: 7
+  review: 
+  genre: ["Hip-Hop"]
+  date: Febrero 28
+  
+- id: 19
+  album: After Hours
+  artist: The Weeknd
+  cover: after hours.webp
+  year: 2020
+  score: 4
+  review: me dijeron que era bueno
+  genre: ["R&B"]
+  date: Marzo 3
+  
+- id: 20
+  album: Innervisions
+  artist: Stevie Wonder
+  cover: innervisions.webp
+  year: 1973
+  score: 8
+  review: almost his highest ground
+  genre: ["Soul"]
+  date: Marzo 7
+
+- id: 21
+  album: EL ÚLTIMO TOUR DEL MUNDO
+  artist: Bad Bunny
+  cover: ultimotour.webp
+  year: 2020
+  score: 7
+  review: book her tea
+  genre: ["Reguetón", "Trap"]
+  date: Marzo 8
+
+- id: 22
+  album: You Will Never Know Why
+  artist: Sweet Trip
+  cover: ywnkw.webp
+  year: 2009
+  score: 8
+  review: noisy synthy pop with a nice bass
+  genre: ["Dream Pop"]
+  date: Marzo 8
+  
+- id: 23
+  album: Hypnic Jerks
+  artist: The Spirit of the Beehive 
+  cover: Hypnic Jerks.webp
+  year: 2018
+  score: 7
+  review: what is hypnagogic pop even supposed to mean
+  genre: ["Psychedelic Pop"]
+  date: Abril 11
+
+- id: 24  
+  album: Tomboy
+  artist: Panda Bear
+  cover: tomboy.webp
+  year: 2011
+  score: 8
+  review: i know, i know
+  genre: ["Psychedelic Pop"]
+  date: Abril 16
+
+- id: 25
+  album: Pueblos Futuros
+  artist: Animal Blanco
+  cover: pueblos futuros.jpg
+  year: 2021
+  score: 7
+  review: lindo disco por uno de mis profesores favoritos en la universidad
+  genre: ["Cantautor"]
+  date: Abril 17
