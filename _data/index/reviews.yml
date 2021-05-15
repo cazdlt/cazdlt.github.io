@@ -148,7 +148,7 @@
   artist: The Avalanches
   cover: we will always love you.webp
   year: 2020
-  score: 9
+  score: 8
   review: a smooth multicolor experience
   genre: ["Neo-psychedelia"]
   date: Febrero 10
@@ -191,7 +191,7 @@
   cover: lhdlidle.webp
   year: 2020
   score: 7
-  review: 
+  review: Geriatras Observan Nenes Oníricos, Ratas Representan a Energúmenos Animales (GONORREA)
   genre: ["Hip-Hop"]
   date: Febrero 28
   
@@ -264,3 +264,33 @@
   review: lindo disco por uno de mis profesores favoritos en la universidad
   genre: ["Cantautor"]
   date: Abril 17
+
+- id: 26
+  album: Cera Perdida
+  artist: Frente Cumbiero
+  cover: cera perdida.webp
+  year: 2021
+  score: 8
+  review: jazz con guacharaca y bombardino
+  genre: ["Jazz", "Cumbia"]
+  date: Abril 26
+
+- id: 27
+  album: Promises
+  artist: Floating Points, Pharoah Sanders & The London Symphony Orchestra 
+  cover: promises.webp
+  year: 2021
+  score: 9
+  review: escuchar este disco hizo que me fuera bien durante las siguientes dos semanas
+  genre: ["Jazz"]
+  date: Abril 29
+
+- id: 28
+  album: Black Messiah
+  artist: D'Angelo
+  cover: black messiah.webp
+  year: 2014
+  score: 9
+  review: soul delicioso
+  genre: ["Soul"]
+  date: Mayo 14
