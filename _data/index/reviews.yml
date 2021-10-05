@@ -240,7 +240,7 @@
   artist: The Spirit of the Beehive 
   cover: Hypnic Jerks.webp
   year: 2018
-  score: 7
+  score: 6
   review: what is hypnagogic pop even supposed to mean
   genre: ["Psychedelic Pop"]
   date: Abril 11
@@ -270,7 +270,7 @@
   artist: Frente Cumbiero
   cover: cera perdida.webp
   year: 2021
-  score: 8
+  score: 7
   review: jazz con guacharaca y bombardino
   genre: ["Jazz", "Cumbia"]
   date: Abril 26
@@ -294,3 +294,173 @@
   review: soul delicioso
   genre: ["Soul"]
   date: Mayo 14
+  
+- id: 29
+  album: Verdor
+  artist: N. Hardem
+  cover: verdor.webp
+  year: 2021
+  score: 9
+  review: nos enferman los números
+  genre: ["Hip-Hop"]
+  date: Mayo 14
+  
+- id: 30
+  album: Batea
+  artist: Bejuco
+  cover: batea.webp
+  year: 2021
+  score: 7
+  review: música del pacífico 2021
+  genre: ["pacífico", "currulao"]
+  date: Mayo 27
+
+- id: 31
+  album: Empyrean Isles
+  artist: Herbie Hancock
+  cover: empyrean isles.webp
+  year: 1964
+  score: 8
+  review: "En Javeriana Estéreo: j a z z."
+  genre: ["Jazz"]
+  date: Junio 2
+  
+- id: 31
+  album: SOUR
+  artist: Olivia Rodrigo
+  cover: sour.webp
+  year: 2021
+  score: 7
+  review: mi hermana no para de poner good 4 u y me gusta
+  genre: ["Pop", "Rock"]
+  date: Junio 4
+  
+- id: 32
+  album: Jubilee
+  artist: Japanese Breakfast
+  cover: jubilee.webp
+  year: 2021
+  score: 6
+  review: nostalgia de estar escuchando psychopomp en un pueblito del magdalena medio en el 2016
+  genre: ["Indie Rock"]
+  date: Junio 4
+  
+- id: 33
+  album: Euphanasia
+  artist: Buhodermia 夜
+  cover: euphanasia.webp
+  year: 2020
+  score: 4
+  review: el que ponga gemidos en sus canciones pierde automáticamente sus derechos humanos
+  genre: ["Hip-Hop"]
+  date: Junio 18
+  
+- id: 34
+  album: Afrique Victime
+  artist: Mdou Moctar
+  cover: afrique victime.webp
+  year: 2021
+  score: 8
+  review: rock is alive but only in mali
+  genre: ["Desert Blues"]
+  date: Julio 19
+  
+- id: 35
+  album: Punisher
+  artist: Phoebe Bridgers
+  cover: punisher.webp
+  year: 2020
+  score: 7
+  review: en otro estado mental este album me destruye
+  genre: ["Folk Pop"]
+  date: Agosto 24
+  
+- id: 36
+  album: CALL ME IF YOU GET LOST
+  artist: Tyler, The Creator
+  cover: cmiygl.gif
+  year: 2021
+  score: 7
+  review: lo escuché en desorden y así me gustó
+  genre: ["Alt Hip-Hop"]
+  date: Agosto 24
+
+- id: 37
+  album: Rican Struction
+  artist: Ray Barretto
+  cover: rican struction.jpg
+  year: 1979
+  score: 8
+  review: durísimas las manos de este tipo
+  genre: ["Salsa"]
+  date: Agosto 25
+  
+- id: 38
+  album: Cosa Nuestra
+  artist: Willie Colón
+  cover: cosa nuestra.webp
+  year: 1969
+  score: 7
+  review: "DIRECTOR: Francis Ford Coppola"
+  genre: ["Salsa"]
+  date: Agosto 26
+  
+- id: 39
+  album: Gaita Negra
+  artist: Paíto y los Gaiteros de Punta Brava
+  cover: gaita negra.webp
+  year: 2007
+  score: 8
+  review: porque todo viene cuando se encariña a la música
+  genre: ["Gaita", "Cumbia"]
+  date: Agosto 26
+  
+- id: 40
+  album: "Vol. III: Que suene la flauta"
+  artist: Pacheco y su Charanga
+  cover: que suene la flauta.webp
+  year: 1962
+  score: 4
+  review: acuyuyé
+  genre: ["Charanga"]
+  date: Agosto 28
+
+- id: 41
+  album: Solar Power
+  artist: Lorde
+  cover: solar power.webp
+  year: 2021
+  score: 6
+  review: le faltó un banger pero muy tranqui y sólido
+  genre: ["Pop", "Cantautor"]
+  date: Septiembre 19
+
+- id: 42
+  album: Yo soy Eustiquia
+  artist: Eustiquia Amaranto Santana
+  cover: yo soy eustiquia.jpg
+  year: 2021
+  score: 6
+  review: ese palo no lo conozco venga y muéstremelo usted
+  genre: ["Bullerengue"]
+  date: Septiembre 22
+  
+- id: 43
+  album: Happier Than Ever
+  artist: Billie Eilish
+  cover: happier than ever.webp
+  year: 2021
+  score: 8
+  review: discazo. more maduro, limpio, fluido than ever.
+  genre: ["Alt-Pop"]
+  date: Septiembre 22
+  
+- id: 44
+  album: Apollo Sound 6
+  artist: Roberto Roena
+  cover: apollo sound 6.webp
+  year: 2021
+  score: 7
+  review: hace falta el que vendrá
+  genre: ["Salsa"]
+  date: Octubre 5
