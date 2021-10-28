@@ -451,7 +451,7 @@
   cover: happier than ever.webp
   year: 2021
   score: 8
-  review: discazo. more maduro, limpio, fluido than ever.
+  review: facilito pop aotysf
   genre: ["Alt-Pop"]
   date: Septiembre 22
   
@@ -464,3 +464,33 @@
   review: hace falta el que vendrá
   genre: ["Salsa"]
   date: Octubre 5
+  
+- id: 45
+  album: Fôrça Bruta
+  artist: Jorge Ben Jor
+  cover: forca bruta.webp
+  year: 1970
+  score: 7
+  review: genio ben jor pero las letras muy normalitas
+  genre: ["MPB"]
+  date: Octubre 12
+  
+- id: 46
+  album: Rastilho
+  artist: Kiko Dinucci
+  cover: rastilho.webp
+  year: 2020
+  score: 7
+  review: sambita medio pop medio experimental muy creativa
+  genre: ["Samba", "Experimental"]
+  date: Octubre 12
+  
+- id: 47
+  album: Ancestras
+  artist: Petrona Martínez
+  cover: ancestras.webp
+  year: 2021
+  score: 9
+  review: el que come y da, come dos veces
+  genre: ["Bullerengue", "Jazz", "Caribe"]
+  date: Octubre 21
