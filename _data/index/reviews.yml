@@ -33,7 +33,7 @@
   artist: Varios
   cover: chicha.webp
   year: 2014
-  score: 6
+  score: 5
   review: Kusa
   genre: ["Cumbia Peruana", "Chicha"]
   date: Enero 12
@@ -191,7 +191,7 @@
   cover: lhdlidle.webp
   year: 2020
   score: 7
-  review: Geriatras Observan Nenes Oníricos, Ratas Representan a Energúmenos Animales (GONORREA)
+  review: Geriatras Observan Nenes Oníricos, Ratas Representan a Energúmenos Animales
   genre: ["Hip-Hop"]
   date: Febrero 28
   
@@ -492,5 +492,185 @@
   year: 2021
   score: 9
   review: el que come y da, come dos veces
-  genre: ["Bullerengue", "Jazz", "Caribe"]
+  genre: ["Bullerengue", "Jazz", "Cumbia"]
   date: Octubre 21
+  
+- id: 47
+  album: Almas Conectadas
+  artist: Quantic & Nidia Góngora
+  cover: almas conectadas.webp
+  year: 2021
+  score: 6
+  review: la maestra nidia canta muy lindo pero acá la mayoría son canciones normalitas de influencia cubana
+  genre: ["Electrónica", "Caribe"]
+  date: Octubre 21
+  
+- id: 47
+  album: Donda
+  artist: Kanye West
+  cover: donda.webp
+  year: 2021
+  score: 7
+  review: a kanye realmente le gustó tanto Jail que la puso dos veces
+  genre: ["Hip-Hop"]
+  date: Octubre 31
+  
+- id: 48
+  album: Isles
+  artist: Bicep
+  cover: isles.webp
+  year: 2021
+  score: 3
+  review: no sé por qué escuché esto
+  genre: ["Electrónica"]
+  date: Noviembre 4
+  
+- id: 49
+  album:  VOLCANIC BIRD ENEMY AND THE VOICED CONCERN 
+  artist: LIL UGLY MANE
+  cover: vbeatvc.webp
+  year: 2021
+  score: 7
+  review: el tipo de música que mi mamá salta cuando suena en el carro (excepto por 2 canciones)
+  genre: ["Neo-psychedelia"]
+  date: Noviembre 5
+  
+- id: 50
+  album:  LP!
+  artist: JPEGMAFIA
+  cover: lp.webp
+  year: 2021
+  score: 7
+  review: debería ser buena música de gimnasio pero no
+  genre: ["Hip-hop"]
+  date: Noviembre 5
+
+- id: 51
+  album:  Metiendo Mano!
+  artist: Willie Colón & Rubén Blades
+  cover: metiendo mano.webp
+  year: 1977
+  score: 7
+  review: preparando la siembra definitivamente
+  genre: ["Salsa"]
+  date: Noviembre 13
+  
+- id: 52
+  album: An Evening With Silk Sonic
+  artist: Silk Sonic 
+  cover: silk sonic.webp
+  year: 2021
+  score: 8
+  review: los dos sencillos son top 10 temas del año
+  genre: ["Soul", "Funk"]
+  date: Noviembre 20
+  
+- id: 53
+  album: Sometimes I Might Be Introvert
+  artist: Little Simz
+  cover: simbi.webp
+  year: 2021
+  score: 8
+  review: strong vibes right here
+  genre: ["UK Hip-Hop"]
+  date: Noviembre 22
+  
+- id: 54
+  album: Oddments
+  artist: King Gizzard & The Lizard Wizard
+  cover: oddments.webp
+  year: 2014
+  score: 6
+  review: ABABCdEFG
+  genre: ["Rock"]
+  date: Noviembre 29
+  
+- id: 55
+  album: Stand for Myself
+  artist: Yola
+  cover: stand for myself.webp
+  year: 2021
+  score: 6
+  review: demasiado gringo para mí
+  genre: ["Soul", "Country"]
+  date: Diciembre 12
+  
+- id: 55
+  album: Mercurial World
+  artist: Magdalena Bay
+  cover: mercurial world.webp
+  year: 2021
+  score: 9
+  review: some real uwu stuff
+  genre: ["Dance Pop"]
+  date: Diciembre 13
+  
+- id: 56
+  album: Mood Valiant
+  artist: Hiatus Kaiyote
+  cover: mood valiant.webp
+  year: 2021
+  score: 8
+  review: esto me hubiera encantado cuando estaba en la universidad
+  genre: ["Indie", "Soul"]
+  date: Diciembre 19
+  
+- id: 57
+  album: Heaux Tales
+  artist: Jazmine Sullivan
+  cover: heaux tales.webp
+  year: 2021
+  score: 8
+  review: girl boss shit done right
+  genre: ["R&B"]
+  date: Diciembre 20
+  
+- id: 58
+  album: Nurture
+  artist: Porter Robinson 
+  cover: nurture.webp
+  year: 2021
+  score: 5
+  review: definitivamente no me gusta la mayoría de electrónica
+  genre: ["Electropop"]
+  date: Diciembre 25
+
+- id: 59
+  album: Navy's Reprise 
+  artist: Navy Blue 
+  cover: navys reprise.webp
+  year: 2021
+  score: 7
+  review: buen rap para poner de fondo y echar cuento cuando navy blue tire referencias cubanas
+  genre: ["Hip-hop"]
+  date: Diciembre 25
+  
+- id: 60
+  album: Zeta Once 
+  artist: Babelgam
+  cover: zeta once.webp
+  year: 2021
+  score: 7
+  review: SUBA PTE
+  genre: ["Hyperpop"]
+  date: Diciembre 26
+  
+- id: 61
+  album: t.i.a.p.f.y.h. 
+  artist: Left at London 
+  cover: tiapfyh.webp
+  year: 2021
+  score: 6
+  review: disquito con buenas ideas (y par temas) pero no con mis vibras
+  genre: ["Indie Rock", "Indie Pop"]
+  date: Diciembre 26
+  
+- id: 62
+  album: Templo Komodo 
+  artist: Briela Ojeda
+  cover: templo komodo.webp
+  year: 2021
+  score: 9
+  review: El ritmo me lo dio el caudal
+  genre: ["Cantautora", "Colombia"]
+  date: Diciembre 26

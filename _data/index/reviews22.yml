@@ -1,0 +1,22 @@
+- id: 1
+  album: Párpados Cerrados / Cielo
+  artist: Duplat
+  cover: cielo.webp
+  year: 2021
+  score: 7
+  review: cursi y elegante
+  genre: ["Indie Pop"]
+  date: Enero 1
+
+- id: 2
+  album: Yellow
+  artist: Emma-Jean Thackray
+  cover: yellow.webp
+  year: 2021
+  score: 8
+  review: pp
+  genre: ["Psychedelic Pop"]
+  date: Enero 3
+
+# ATLiens
+# genesis owusu
